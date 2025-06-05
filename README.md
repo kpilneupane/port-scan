@@ -20,8 +20,8 @@ OR Python 3.10+ with pip install -r requirements.txt
 
 ## Run Locally with Docker
 
-# Build the image
+### Build the image
 docker build -t port-scanner-api .
 
-# Run the container
+### Run the container
 docker run -p 5000:5000 port-scanner-api
